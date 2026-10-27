@@ -1,16 +1,70 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0 5px;
+            background: linear-gradient(to right, #c5e8f8, #8bc9e8);
+        }
+        h3{
+            margin: 0;
+            padding: 2px;
+            background-color: black;
+            color: white;
+            font-size: 16px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 1.4;
+            margin: 12px 0;
+        }
+        .red{
+            color: red;
+        }
+        ul{
+             width: 53%;
+            margin-top: 12px;
+            padding-left: 42px;
+    }
+    li{
+         list-style-position: outside;
+         padding: 10px;
+         font-size: 20px;
+         background-color: white;
+    }
+    li:nth-child(even){
+        background-color: #7d8997;
+    }
+    li:nth-child(3){
+        background-color: #f3b8c2;
+    }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+            <h3>First Paragraph</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis qui quidem eos asperiores odio fugit, repellat deserunt, officia, corrupti ratione sapiente adipisci. Minima iure necessitatibus impedit magni exercitationem natus maxime?</p>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </p>
+        <p class="red">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+
+
+            <ul class="line">
+                <li>First Item</li>
+                <li>Second Item</li>
+                <li>Third Item</li>
+                <li>Fourth Item</li>
+                <li>Fifth Item</li>
+            </ul>
+
 
 </body>
-
 </html>
